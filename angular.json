@@ -6,9 +6,9 @@
     "template-cross-plateform": {
       "projectType": "application",
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": "pl",
         "locales": {
-          "pl": "src/locale/source.pl.json"
+          "en": "src/locale/source.en.json"
         }
       },
       "schematics": {
