@@ -5,6 +5,12 @@
   "projects": {
     "template-cross-plateform": {
       "projectType": "application",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "pl": "src/locale/source.pl.json"
+        }
+      },
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
@@ -37,7 +43,8 @@
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "localize": true
           },
           "configurations": {
             "production": {
